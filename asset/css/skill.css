@@ -1,0 +1,29 @@
+.skill__titulo {
+    padding: 16px;
+}
+
+.skill__items{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    gap: 32px;
+}
+
+.skill__titulo{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+
+.skill__imagen {
+    width: 100px;
+}
+
+.skill__nombre {
+    text-align: center;
+}

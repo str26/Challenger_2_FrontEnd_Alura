@@ -1,0 +1,29 @@
+.introduccion {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+
+}
+
+.introduccion__imagen{
+    width: 98px;
+    height: 99px;
+    max-width: 368px; 
+    border-radius: 50%;
+    padding: 0.5em;
+}
+
+.introduccion__titulo{
+    font-weight: bold;
+}
+
+.introduccion__redsocial{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    font-size: 14px;
+    gap: 8px;
+}

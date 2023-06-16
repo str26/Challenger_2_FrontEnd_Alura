@@ -1,0 +1,20 @@
+.cabecera {
+    background: #F5F5F5;
+    font-family: var(--montserrat);
+}
+
+.cabecera__principal {
+    height: 8vh;
+    background: #edebeb;
+    display: flex;  
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.cabecera__nombre{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+

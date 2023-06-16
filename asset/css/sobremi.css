@@ -1,0 +1,13 @@
+.sobremi{
+    background: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+}
+
+.sobremi__firma {
+    width: 140px;
+    height: 52px;
+}

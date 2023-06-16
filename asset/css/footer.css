@@ -1,0 +1,18 @@
+.footer {
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    gap: 10px;
+    background: cadetblue;
+    padding: 12px;
+}
+
+.footer__texto {
+    font-style: italic;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+
+}
+
