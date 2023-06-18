@@ -3,8 +3,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
     padding: 32px;
-    gap: 10px
+    gap: 10px /*16*/
 }
 
 .contacto__titulo{
@@ -40,4 +41,37 @@
 
 .contacto__textarea::placeholder {
     color:lightgrey; 
+}
+
+.contacto__imagen {
+    display: none; 
+}
+
+
+/*----RESPONSIVE----*/
+@media screen and (min-width:768px) {
+    .contacto__input {
+        width: 200px;   
+    }
+}
+
+@media screen and (min-width:900px) {
+    .contacto {
+        display: flex;
+        flex-direction: row;
+        padding: 32px;
+        gap: 16px;
+        align-items: center; 
+    }
+
+    .contacto__input {
+        width: 500px;   
+    }
+ 
+    .contacto__imagen {
+        display: flex;
+        width: 90%;
+        flex-grow: 1;
+        padding-left: 30px;
+    }
 }
