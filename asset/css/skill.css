@@ -16,6 +16,10 @@
     gap: 32px;
 }
 
+.skill__item {
+    padding: 20px;
+}
+
 .skill__titulo{
     font-weight: bold;
     text-align: center;

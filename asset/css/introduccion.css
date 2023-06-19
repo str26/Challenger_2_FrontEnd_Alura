@@ -45,8 +45,24 @@
         flex-direction: row-reverse;
         align-items: center;  
     }
-    
-    
-   
-    
+}
+
+@media screen and (min-width: 900px) {
+   .container__texto{
+        font-size: 1.3em;
+        padding: 16px;
+    }
+
+    .introduccion__texto{
+        margin-bottom: 20px;
+        margin-top: 20px;
+     }
+       
+    .introduccion__redsocial{
+        font-size: 0.8em;
+    }
+
+    p {
+        line-height: 1.5;
+    }
 }

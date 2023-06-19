@@ -8,19 +8,38 @@
     gap: 10px;
 }
 
+.titulo__intermedio {
+    font-weight: bold;
+}
+
+.sobremi__texto {
+    font-size: 1.3em;
+}
+
 .sobremi__firma {
     width: 140px;
     height: 52px;
 }
 
-@media screen and (min-width:900px) {
+
+@media screen and (min-width:768px) {
     .sobremi {
         padding: 22px; 
+        gap: 15px;
     }
+   
 }
 
 @media screen and (min-width:900px) {
     .sobremi {
         padding: 32px; 
+    }
+
+    .titulo__intermedio {
+        font-size: 1.3em;
+    }
+
+    .sobremi__texto {
+        font-size: 1.3em;
     }
 }
