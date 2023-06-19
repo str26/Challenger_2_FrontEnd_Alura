@@ -25,7 +25,8 @@
     <title>Portafolio Esther Or</title>
 </head>
 
-<body>
+<body > 
+    <section id="portafolio">
     <!--Cabecera Nombre-->
     <header class="cabecera">
         <section class="cabecera__principal">
@@ -63,9 +64,10 @@
                 <i class="fa-solid fa-file-arrow-down"></i>
                 <li class="introduccion__redsocial__item"><a href="#"></a>Curriculum</li>
             </ul>
+            <button type="button"  id="print" class="boton">Descarga mi Portafolio</button> <!-- onclick="generarPdf()" -->
             </div>
         </section>
-        </section>
+       
     </header>
     <main>
         <section class="sobremi">
@@ -269,7 +271,8 @@
                     </div>
                 </div>
             </div>
-        </section>   
+        </section> 
+    </section>  
             <!--CONTACTO-->
             <section class="contacto">
                 <div>
@@ -288,7 +291,7 @@
                                 <input class="contacto__input" type="text" placeholder="Asunto">
                                 <textarea class="contacto__textarea" name="" id="" cols="40" rows="10"
                                     placeholder="Mensaje"></textarea>
-                                <button type="submit" class="boton">Contactad@ Mi Ciela</button>
+                                <button type="submit" onclick="" id="botonPdf" class="boton">Contactad@ Mi Ciela</button>
                             </form>
                         </div>
                     </section>
@@ -302,6 +305,8 @@
         <h4 class="footer__texto">DevNurse</h4>
     </footer>
 
+    <script type="text/JavaScript" src="portafolio.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://kit.fontawesome.com/db26d8279e.js" crossorigin="anonymous"></script>
 </body>
 

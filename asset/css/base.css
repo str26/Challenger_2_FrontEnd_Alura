@@ -37,4 +37,40 @@ body {
         padding-left: calc((100% - 940px)/2);
         padding-right: calc((100% - 940px)/2);
     }
+
+    .boton {
+        background: (251,251,251);
+        opacity: 1;
+        color: black;
+        border-radius: 5px;
+        height: 30px;
+    }
+
+    .boton:hover{
+        background:teal;
+        color: white;
+        border: 1px solid brown;
+    
+    }
+
+    .boton:visited {
+        background: steelblue;
+        color: white;
+    }
+
+    a:visited {
+        background: steelblue;
+        color: white;
+    }
+
+
+}
+
+@media print {
+    
+	#portafolio  {
+	    display:block;
+
+	}
+
 }
