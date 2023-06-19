@@ -18,3 +18,10 @@
     font-weight: bold;
 }
 
+@media screen and (min-width: 768px) {
+
+    .cabecera__principal {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

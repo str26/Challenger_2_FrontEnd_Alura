@@ -31,3 +31,53 @@ body {
 .titulo_intermedio {
     font-weight: bold;
 }
+
+.boton {
+    background: (251,251,251);
+    opacity: 1;
+    color: black;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.boton:hover{
+    background:teal;
+    color: white;
+    border: 1px solid brown;
+
+}
+
+.boton:visited {
+    background: steelblue;
+    color: white;
+}
+
+a:visited {
+    background: steelblue;
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .boton {
+        height: 40px;
+    }
+}
+
+@media print {
+    
+	#portafolio  {
+	    display:block;
+	}
+
+    #contacto {
+        display: none;
+    }
+
+}
