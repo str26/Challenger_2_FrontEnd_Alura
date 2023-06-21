@@ -8,6 +8,7 @@
     gap: 10px /*16*/
 }
 
+
 .contacto__titulo{
     align-items: flex-start;
     font-weight: bold;
@@ -15,15 +16,16 @@
     margin-bottom: 10px;
 }
 
+
 .contacto__subtitulo {
     margin-bottom: 5px;
-
 }
+
 
 .contacto__parrafo{
     margin-bottom: 20px;
-
 }
+
 
 .contacto__form {
     display: flex;
@@ -31,27 +33,124 @@
     gap: 20px;
 }
 
+
 .contacto__input{
     height: 40px;  
+    width: 300px;
 }
+
 
 .contacto__input::placeholder {
     color:lightgrey; 
 }
 
+
 .contacto__textarea::placeholder {
     color:lightgrey; 
 }
+
+
+.formulario__grupo-input {
+	position: relative;
+}
+
+
+.formulario__validacion-estado {
+    position:absolute;
+    right: 10px;
+    top: 15px;
+    z-index: 100;
+    opacity: 1;
+    color: #f66860;
+}
+
+
+.formulario__mensaje-error {
+    height: 45px;
+    line-height: 45px;
+    background: #f66860;
+    padding: 0 15px ;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    display: none;   
+}
+
+
+.formulario__mensaje-error-activo{
+    display: block;
+}
+
+
+.formulario__grupo-btn-enviar {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .contacto__imagen {
     display: none; 
 }
 
 
+.formulario__btn {
+    height: 30px;
+    cursor: pointer;
+    /* padding-top: 10px; */
+}
+
+
+.formulario__label {
+    margin-bottom: 5px;
+}
+
+
+.formulario__mensaje-exito {
+    padding: 10px 0;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: .8px;
+    display: none;
+}
+
+
+.formulario__mensaje-exito-activo {
+    display: block;
+}
+
+/* ----------- Estilos para validacion ------------*/
+.formulario__grupo-correcto .formulario__validacion-estado {
+    color: #1ed12d;
+    opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+    color: #bb2929;
+    opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+    border:3px solid  #bb2929;
+    
+}
+
+
 /*----RESPONSIVE----*/
 @media screen and (min-width:768px) {
     .contacto__input {
-        width: 200px;   
+        width: 500px; 
+        max-width: 800px;  
+    }
+
+    .formulario__btn {
+        width: 300px;
+
+    }
+
+    .formulario__validacion-estado {
+        position: absolute;
+        right: 320px;
+        top: 15px;
     }
 }
 
@@ -74,4 +173,18 @@
         flex-grow: 1;
         padding-left: 30px;
     }
+
+    .formulario__validacion-estado {
+        position: absolute;
+        left: 470px;
+        top: 15px;
+        z-index: 100;
+        opacity: 0;
+    }
+
+    .formulario__btn {
+        width: auto;
+
+    }
+    
 }
