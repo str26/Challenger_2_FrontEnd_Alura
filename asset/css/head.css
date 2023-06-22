@@ -12,11 +12,53 @@
     padding-right: 16px;
 }
 
+.cabecera__principal{
+    background :#49d0be;
+}
 .cabecera__nombre{
     display: flex;
     align-items: center;
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-family: var(--neon);
+    font-size: 30px;
+    animation: amarillo__neon 4s infinite alternate;
+    
+    letter-spacing: 1.5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #e59142;
 }
+
+/* Animacion */
+
+@keyframes amarillo__neon {
+	0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100% {
+		text-shadow: 
+                    9px 9px 18px white, 
+					3px 3px 5px white, 
+					-3px -3px 5px white, 
+					-9px -3px 15px rgba(217, 29, 29, 0.567)
+                    /* 9px 9px 18px #fff50a, 
+					 3px 3px 5px #fff961, 
+					 -3px -3px 5px #ffffa2, 
+					 -3px -3px 27px #ffffa2*/ 
+					 /* -9px -9px 27px #ffffa2 */
+                     ;
+        }
+        10%, 15%, 40% {
+            text-shadow: none;
+        }
+  }
+   
+
+@media screen and (min-width: 768px) {
+
+    .cabecera__principal {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
 
 @media screen and (min-width: 768px) {
 

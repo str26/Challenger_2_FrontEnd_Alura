@@ -1,24 +1,36 @@
 .sobremi{
-    background: #EAF2FD;
+    background :#49d0be;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     padding: 32px;
     gap: 10px;
+    font-family: var(--neon);
+    color: 
+
 }
 
 .titulo__intermedio {
     font-weight: bold;
+    letter-spacing: 3px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #e59142;
+    text-shadow: 2px 0px white
 }
 
 .sobremi__texto {
+
     font-size: 1.3em;
+    font-family: var(--neon);
+    line-height: 26px;
+
 }
 
 .sobremi__firma {
-    width: 140px;
-    height: 52px;
+    width: 200px;
+    height: 80px;
 }
 
 
@@ -37,9 +49,13 @@
 
     .titulo__intermedio {
         font-size: 1.3em;
+      
+
     }
 
-    .sobremi__texto {
-        font-size: 1.3em;
-    }
+    .sobremi__firma {
+        width: 340px;
+        height: 140px;
+
+    
 }

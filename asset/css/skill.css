@@ -1,9 +1,17 @@
 .skill{
     border-bottom: 1.5px solid;
     border-style: groove;
+    font-family: var(--neon);
 }
 .skill__titulo {
     padding: 16px;
+    font-family: var(--neon);
+    font-weight: bold;
+    letter-spacing: 3px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #e59142;
+    text-shadow: 2px 0px lightgray
 }
 
 .skill__items{
@@ -14,11 +22,14 @@
     justify-content: center;
     padding: 16px;
     gap: 32px;
+   
 }
 
 .skill__item {
     padding: 20px;
+    
 }
+
 
 .skill__titulo{
     font-weight: bold;
@@ -27,6 +38,8 @@
     margin-top: 1rem;
     margin-bottom: .5rem;
     font-size: 1.5rem;
+    
+    letter-spacing: 3px;
 }
 
 
@@ -36,4 +49,5 @@
 
 .skill__nombre {
     text-align: center;
+    
 }

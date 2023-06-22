@@ -1,6 +1,8 @@
 .menu {
     display: flex;
     align-items: center;
+    color: white;
+    font-weight: bold;
 }
 
 .menu__lista {
@@ -8,17 +10,26 @@
     list-style: none;
     display: flex;
     flex-wrap: nowrap;
+    letter-spacing: 2px;
 }
 
 .menu__item__link{
     margin-right: 1.25rem;
+    
 }
 
 .menu__item__escritorio {
     display:none;
+    
+    color: whitesmoke;
 }
 
+
 @media screen and (min-width:900px) {
+   .menu__lista {
+        font-size: 16px;
+   }
+   
     .menu__item__escritorio {
         display:flex;
     }

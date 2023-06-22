@@ -1,5 +1,6 @@
 .contacto {
-    background: aliceblue;
+    background: #49d0be;
+    font-family: var(--neon);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -14,6 +15,12 @@
     font-weight: bold;
     font-size: 1.3rem;
     margin-bottom: 10px;
+    letter-spacing: 3px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #e59142;
+    text-shadow: 2px 0px white;
+    font-weight: bold;
 }
 
 
@@ -96,6 +103,15 @@
 .formulario__btn {
     height: 30px;
     cursor: pointer;
+    border-radius: 10px;
+    background: #e59142;
+    box-shadow: 0px 0px 3px 3px white;
+    border: none;
+    color: whitesmoke;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 18px;
+
     /* padding-top: 10px; */
 }
 
@@ -184,6 +200,11 @@
 
     .formulario__btn {
         width: auto;
+        font-family: var(--neon);
+        letter-spacing: 3px;
+        height: 35px;
+        border-radius: 10px;
+
 
     }
     

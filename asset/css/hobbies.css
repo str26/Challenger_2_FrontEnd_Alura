@@ -1,5 +1,12 @@
 .hobbies__titulo {
     padding: 16px;
+    font-family: var(--neon);
+    font-weight: bold;
+    letter-spacing: 3px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #e59142;
+    text-shadow: 2px 0px lightgray
 }
 
 .hobbies__items{
@@ -31,4 +38,5 @@
 
 .hobbies__nombre {
     text-align: center;
+    font-family: var(--neon);
 }

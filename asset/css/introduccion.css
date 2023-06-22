@@ -6,7 +6,6 @@
     justify-content: center;
     gap: 16px;
     padding: 32px;
-
 }
 
 .container__texto{
@@ -14,18 +13,20 @@
 }
 
 .introduccion__imagen{
-    width: 98px;
-    height: 99px;
+    width: 121px;
+    height: 123px;
     max-width: 368px; 
     border-radius: 50%;
     padding: 0.5em;
-    
+    box-shadow: 0px 0px 3px 3px #e59142;    
 }
 
 .introduccion__titulo{
-    font-weight: bold;
+    letter-spacing: 1px;
     margin-bottom: 10px;
-  
+    font-weight: 600;
+    font-family: (--neon);
+    font-size: 20px;
 }
 
 .introduccion__redsocial{
@@ -39,13 +40,32 @@
     margin-bottom: 22px;
 }
 
+.boton__descargar {
+    border-radius: 10px;
+    height: 30px;
+    width: 20em;
+    font-family: var(--neon);
+    background: #e59142;
+    box-shadow: 0px 0px 3px 3px lightgray;
+    color: whitesmoke;
+    border: none;
+    font-size: 16px;
+}
+
 @media screen and (min-width: 768px) {
     .introduccion {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;  
     }
+
+    .introduccion__imagen{
+        width: 151px;
+        height: 153px;  
 }
+
+}
+
 
 @media screen and (min-width: 900px) {
    .container__texto{
@@ -65,4 +85,20 @@
     p {
         line-height: 1.5;
     }
+
+    .boton__descargar {
+        border-radius: 10px;
+        height: 40px;
+        width: 20em;
+        font-family: var(--neon);
+        background: #e59142;
+        box-shadow: 0px 0px 3px 3px white;
+    }
+
+    .introduccion__imagen{
+        width: 181px;
+        height: 180px;
+         
+}
+
 }
