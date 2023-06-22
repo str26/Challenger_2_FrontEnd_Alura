@@ -34,10 +34,14 @@
 @keyframes amarillo__neon {
 	0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100% {
 		text-shadow: 
-                    9px 9px 18px white, 
-					3px 3px 5px white, 
+
+                    0 -1px 4px WHITE, 
+					 0 -2px 10px #ff0,
+					 0 -10px 20px #ff8000,
+                     9px 9px 18px white 
+					/*3px 3px 5px white, 
 					-3px -3px 5px white, 
-					-9px -3px 15px rgba(217, 29, 29, 0.567)
+					-9px -3px 15px rgba(217, 29, 29, 0.567) */
                     /* 9px 9px 18px #fff50a, 
 					 3px 3px 5px #fff961, 
 					 -3px -3px 5px #ffffa2, 
