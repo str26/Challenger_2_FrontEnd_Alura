@@ -1,4 +1,4 @@
-# Challenger_2_FrontEnd_Alura
+# Portafolio
 Se incluye reto de Portafolio , desarrollado con HTML, CSS tipo Flexbox y modo Responsive
 
 Requisitos: 
